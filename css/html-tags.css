@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 80px;
+    color: #1a1a1a;
+}
+
+h2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 2em;
+    color: #96ceb4;
+}
+
+h3 {
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+p {
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    position: center;
+    padding: 20px;
+    background: #f2ae72;
+    margin: 2%;
+    border-radius: 8px;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: auto;
+}
