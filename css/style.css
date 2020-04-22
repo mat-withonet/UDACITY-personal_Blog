@@ -1,6 +1,5 @@
 @import "html-tags.css";
 @import "button.css";
-
 .container {
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -30,12 +29,58 @@ ul {
     grid-area: ft;
 }
 
+#social1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+#social2 {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+#social3 {
+    display: flex;
+    flex-direction: row-reverse;
+    float: left;
+}
+
 .sidebar {
     grid-area: sd;
 }
 
 .content {
     grid-area: main;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
 }
 
 @media(min-width:800px) {
